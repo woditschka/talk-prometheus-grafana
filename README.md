@@ -84,7 +84,7 @@ mkdir -p /var/docker/prometheus/data
 chmod -R uga+rwX /var/docker
 ```
 
-### create logstash config
+### create prometheus config
 ```
 cat >/var/docker/prometheus/config/prometheus.yml <<'EOL'
 global:
